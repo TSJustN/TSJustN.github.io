@@ -1,0 +1,114 @@
+body  {
+    background-image: url("../media/static.jpg")
+	
+}
+.header {
+    background-color: #145A32;
+    padding: 10px;
+    text-align: center;
+}
+
+.santabutton {background-color: #74c22e;
+			height: 53px;
+			width: 100%;}
+
+
+.santabutton li a {
+    overflow: hidden;
+    background-color: white;
+    font-size: 18px;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    box-shadow: 2px 2px 3px inset;
+    text-decoration: none;
+	border-radius: 5px;
+	padding-right: 1em;
+	padding-left: 1em;
+	line-height: 2em;
+	margin-right: 16px;
+
+}
+
+.santabutton ul {
+    color: white;
+    text-align: center;
+    padding: 10px 10px;
+    
+}
+
+.santabutton li {
+    color: black;
+    display: inline;
+}
+
+.santabutton li:first-child {
+	margin-left:20px;
+	border:#C00;
+}
+
+.gallery {
+  width: 640px;
+  margin: 0 auto;
+  padding: 5px;
+  background: #fff;
+  box-shadow: 0 1px 2px rgba(0,0,0,.3);
+}
+
+.gallery > div {
+  position: relative;
+  float: left;
+  padding: 5px;
+}
+
+.gallery > div > img {
+  display: block;
+  width: 200px;
+  transition: .1s transform;
+  transform: translateZ(0);
+}
+
+.gallery > div:hover {
+  z-index: 1;
+}
+
+.gallery > div:hover > img {
+  transform: scale(1.7,1.7);
+  transition: .3s transform;
+}
+
+.cf:before, .cf:after {
+  display: table;
+  content: "";
+  line-height: 0;
+}
+
+.cf:after {
+  clear: both;
+}
+
+
+
+
+h1 {
+	font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
+	color: white;
+}
+span {background-color: gray;
+	font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
+	padding: 10px;}
+
+a {margin-right: 15px;
+	margin-left: 15px;
+	font-size: 24px;}
+
+p {background-color: black;}
+
+.foot {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  background-color: white;
+  text-align: center
+}
+
