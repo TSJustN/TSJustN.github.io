@@ -1,0 +1,54 @@
+body  {background:  url("../media/VHS.gif") 
+		no-repeat center center fixed; 
+  		background-size: cover;
+}
+h1 {color: white}
+
+img {
+	border-radius: 50%;
+}
+
+img.center {
+    display: block;
+    margin: 0 auto;
+}
+
+h2 {color: white;
+	font-family: Verdana, Geneva, sans-serif;}
+
+.navigation {background-color: #212F3C;
+			height: 100px;
+			width: 100%;}
+
+
+.navigation li a {
+    overflow: hidden;
+    background-color: white;
+    font-size: 20px;
+    font-family: Verdana, Geneva, sans-serif;
+    box-shadow: 2px 2px 3px inset;
+    text-decoration: none;
+	border-radius: 5px;
+	padding-right: 1em;
+	padding-left: 1em;
+	line-height: 2em;
+	margin-right: 16px;
+
+}
+
+.navigation ul {
+    color: white;
+    text-align: center;
+    padding: 10px 10px;
+    
+}
+
+.navigation li {
+    color: black;
+    display: inline;
+}
+
+.navigation li:first-child {
+	margin-left:20px;
+	border:#C00;
+}
